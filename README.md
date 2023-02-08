@@ -85,3 +85,5 @@ Em Python, também é possível declarar <i>várias variáveis</i> em <i>apenas 
 <b>NÃO</b> podemos criar uma variável sem atribuir um valor
 <br>
 Python não usa <i>constantes</i>, mas usa convenção para indicar que a <b>variável não pode ser alterada</b>
+<br>
+<b>BOAS PRÁTICAS</b>
