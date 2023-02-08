@@ -91,3 +91,5 @@ Python não usa <i>constantes</i>, mas usa convenção para indicar que a <b>var
 • o padrão de nomes deve ser em <i>snakecase</i>, as palavras são separadas com underline( _ )
 <br>
 • escolher nomes sugestivos, nomes que você se lembrará após um tempo sem ter contato com o código
+<br>
+• nome de constantes tem que ficar em maiúsculo por exemplo <b>CPF: 123-456-789-00
