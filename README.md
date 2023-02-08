@@ -31,7 +31,7 @@ Em 1989 é iniciado o <b>desenvolvimento</b> e só em fevereiro de 1991 é <b>la
 <br>
 A extensão de arquivos python é <i>.py</i>
 <br>
-para exibir um texto no console, o comando utilizado é <i>print("texto"), não é necessário utilizar ponto e vírgula
+para exibir um texto no console, o comando utilizado é <b>print("texto")</b>, não é necessário utilizar ponto e vírgula
 <br>
 para concatenar strings em python, pode utilizar o sinal de adição, como por exemplo <i>"mensagem um" + "mensagem 2"</i>
 <br>
