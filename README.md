@@ -52,3 +52,16 @@ coleção | set, frozenset
 booleano | bool
 <br>
 binário | bytes, bytearray, memoryview
+<br><br>
+• <b>mapa</b> é chave e valor, como <i>nome = chave</i>, por exemplo <i>leonardo = valor</i>
+<br>
+• <b>sequência</b> é algo como 1, 2, 3, ..., n; até mesmo textos como hakuna matata é uma sequência de letras
+<br>
+• <b>coleção</b> é parecido com a lista, porém, não deixa elementos repetidos
+<br>
+• <b>modo interativo</b> permite que escreva o código e veja o resultado na hora
+<br>
+existe <i>dois modos</i> de iniciar o código, pode escrever <b>python</b> no terminal ou executar o script com a tag <b>flag -i</b> (por exemplo "python -i app.py")
+• <b>dir</b> sem argumentos retorna a lista de nomes no escopo local atual, com um argumento retorna uma lista de atributos válidos para o objeto, por exemplo
+<br>
+dir() e dir (100)
