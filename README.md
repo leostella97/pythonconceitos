@@ -87,3 +87,5 @@ Em Python, também é possível declarar <i>várias variáveis</i> em <i>apenas 
 Python não usa <i>constantes</i>, mas usa convenção para indicar que a <b>variável não pode ser alterada</b>
 <br>
 <b>BOAS PRÁTICAS</b>
+<br>
+• o padrão de nomes deve ser em <i>snakecase</i>, as palavras são separadas com underline( _ )
