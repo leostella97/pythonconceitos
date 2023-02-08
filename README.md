@@ -65,3 +65,10 @@ existe <i>dois modos</i> de iniciar o código, pode escrever <b>python</b> no te
 • <b>dir</b> sem argumentos retorna a lista de nomes no escopo local atual, com um argumento retorna uma lista de atributos válidos para o objeto, por exemplo
 <br>
 dir() e dir (100)
+<br>
+• <b>help</b> invoca o sistema de ajuda integrado. É possível fazer buscas em modo interativo ou informar por parâmetro qual o nome do módulo, função, classe, método ou variável que deseja saber, por exemplo:
+<br>
+help()
+help(100)
+<br>
+caso a lista for muito grande, basta apertar a tecla "q" que levará ao final
