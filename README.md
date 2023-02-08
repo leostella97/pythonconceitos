@@ -82,3 +82,6 @@ idade = 26
 eu = {f"Olá, meu nome é {nome} e tenho {idade} anos de idade."}
 <br>
 Em Python, também é possível declarar <i>várias variáveis</i> em <i>apenas uma linha</i>, algo semelhante ao <b>INSERT INTO</b> do SQL, por exemplo age, name = (26, "Leonardo")
+<b>NÃO</b> podemos criar uma variável sem atribuir um valor
+<br>
+Python não usa <i>constantes</i>, mas usa convenção para indicar que a <b>variável não pode ser alterada</b>
