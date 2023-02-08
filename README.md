@@ -72,3 +72,12 @@ help()
 help(100)
 <br>
 caso a lista for muito grande, basta apertar a tecla "q" que levará ao final
+<br>
+• <b>concatenação</b>, a melhor maneira de concatenar string e int utiliza chaves e fica dentro das aspas, por exemplo
+<br>
+nome = "Leonardo Stella"
+<br>
+idade = 26
+<br>
+eu = {f"Olá, meu nome é {nome} e tenho {idade} anos de idade."}
+<br>
