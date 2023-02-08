@@ -81,3 +81,4 @@ idade = 26
 <br>
 eu = {f"Olá, meu nome é {nome} e tenho {idade} anos de idade."}
 <br>
+Em Python, também é possível declarar <i>várias variáveis</i> em <i>apenas uma linha</i>, algo semelhante ao <b>INSERT INTO</b> do SQL, por exemplo age, name = (26, "Leonardo")
