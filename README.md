@@ -89,3 +89,5 @@ Python não usa <i>constantes</i>, mas usa convenção para indicar que a <b>var
 <b>BOAS PRÁTICAS</b>
 <br>
 • o padrão de nomes deve ser em <i>snakecase</i>, as palavras são separadas com underline( _ )
+<br>
+• escolher nomes sugestivos, nomes que você se lembrará após um tempo sem ter contato com o código
