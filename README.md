@@ -37,7 +37,7 @@ para concatenar strings em python, pode utilizar o sinal de adição, como por e
 <br>
 Os tipos servem para <b>definir</b> as <b>características</b> e <b>comportamentos</b> de um valor(objeto) para um interpretador
 <br>
-• TIPOS DE VALORES
+<b>TIPOS DE VALORES</b>
 <br>
 texto | str
 <br>
