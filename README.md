@@ -125,4 +125,4 @@ print(f"idade {idade} preco {preco})
 nome = input("Informe seu nome: ")
 <br>
 • <i>Exibindo valores com a função print =></i> A função <b>built-in print</b> é utilizada quando queremos exibir dados na saída padrão (tela). Ela recebe um argumento do tipo <i>var args</i> de objeto e 4 argumentos opcionais(sep, end, le e flush). Todos os objetos são convertidos para string, separados por sep e terminados por end. A string final é exibida para o usuário
-<br>
+<br> 
