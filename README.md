@@ -99,3 +99,8 @@ para <b>concatenar</b> variáveis e, somente variáveis usando o <b>print</b> po
 <br>
 Em alguns momentos é necessário converter o tipo de uma variável para manipular de forma diferente, por exemplo:
 <br>
+Variáveis do tipo <i>string</i>, que armazena números e precisamos fazer alguma <b>operação matemática</b> com esse(s) valor(es)
+<br>
+• <b>preco = 10</b> #definindo o valor 10 à variável
+<br>
+• <b>print(preco)</b> # resulta 10 na tela
