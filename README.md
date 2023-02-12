@@ -120,7 +120,9 @@ Na <b>concatenação</b>, o uso do <b>f</b> concatena textos com variáveis, ela
 print(f"idade {idade} preco {preco})
 <br>
 <b>ENTRADA E SAÍDA</b>
-• <i>Lendo valores com input =></i> A função <b>built-in input</b> é utilizada quando queremos valores da entrada padrão (teclado). Ela recebe um argumento do tipo <i>string</i>, que é exibido para o usuário na saída de tela padrão (tela/monitor). A função lê a entrada, converte para string e retorna o valor, por exemplo:
+• <i>Lendo valores com a função input =></i> A função <b>built-in input</b> é utilizada quando queremos valores da entrada padrão (teclado). Ela recebe um argumento do tipo <i>string</i>, que é exibido para o usuário na saída de tela padrão (tela/monitor). A função lê a entrada, converte para string e retorna o valor, por exemplo:
 <br>
 nome = input("Informe seu nome: ")
+<br>
+• <i>Exibindo valores com a função print =></i> A função <b>built-in print</b> é utilizada quando queremos exibir dados na saída padrão (tela). Ela recebe um argumento do tipo <i>var args</i> de objeto e 4 argumentos opcionais(sep, end, le e flush). Todos os objetos são convertidos para string, separados por sep e terminados por end. A string final é exibida para o usuário
 <br>
