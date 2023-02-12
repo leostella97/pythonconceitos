@@ -103,4 +103,13 @@ Variáveis do tipo <i>string</i>, que armazena números e precisamos fazer algum
 <br>
 • <b>preco = 10</b> #definindo o valor 10 à variável
 <br>
-• <b>print(preco)</b> # resulta 10 na tela
+• <b>print(preco)</b> #resulta 10 na tela
+<br>
+• <b>preco = float(preco) #convertendo para tipo float
+<br>
+• <b>print(preco) #agora, mostrando o valor da variável 'preco' no tipo float
+<br>
+• <b>preco = 10/2</b> #operação com a variável convertida
+<br>
+• <b>print(preco) #mostrar o resultado da operação na variável
+<br>
