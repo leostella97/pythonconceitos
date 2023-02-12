@@ -113,3 +113,5 @@ Variáveis do tipo <i>string</i>, que armazena números e precisamos fazer algum
 <br>
 • <b>print(preco) #mostrar o resultado da operação na variável
 <br>
+para converter <i>número</i> para <i>string</i> é um pouco diferente, se usa o comando <b>print(str(preco)), em resumo, tanto a variável quando o str precisa de parenteses
+<br>
