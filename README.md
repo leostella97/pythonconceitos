@@ -119,3 +119,4 @@ Na <b>concatenação</b>, o uso do <b>f</b> concatena textos com variáveis, ela
 <br>
 print(f"idade {idade} preco {preco})
 <br>
+<b>ENTRADA E SAÍDA</b>
