@@ -95,3 +95,7 @@ Python não usa <i>constantes</i>, mas usa convenção para indicar que a <b>var
 • nome de constantes tem que ficar em maiúsculo por exemplo <b>CPF: 123-456-789-00
 <br>
 para <b>concatenar</b> variáveis e, somente variáveis usando o <b>print</b> pode usar a <b>vírgula</b>, por exemplo print(nome, idade) #é mostrado Leonardo Stella 26
+<b>CONVERTENDO TIPOS</b>
+<br>
+Em alguns momentos é necessário converter o tipo de uma variável para manipular de forma diferente, por exemplo:
+<br>
