@@ -115,3 +115,5 @@ Variáveis do tipo <i>string</i>, que armazena números e precisamos fazer algum
 <br>
 para converter <i>número</i> para <i>string</i> é um pouco diferente, se usa o comando <b>print(str(preco)), em resumo, tanto a variável quando o str precisa de parenteses
 <br>
+Na <b>concatenação</b>, o uso do <b>f</b> concatena textos com variáveis, ela mais ou menos "diz" que vai ser inserido variáveis dentro dessa string criada
+<br>
