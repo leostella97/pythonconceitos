@@ -164,3 +164,30 @@ idade = input("Digite sua idade: ")
 <br>
 <b>print(3//2)</b> >resulta em 1
 <br>
+<b>exponenciação</b> é respresentado por <i>**</i>
+<br>
+• Na matemática existe uma <b>regra</b> que indica quais <b>operações</b> podem ser executadas primeiro. Isso é bastante útil pois ao analisar uma expressão, a depender da ordem das operações o valor pode ser diferente, por exemplo
+<br>
+x=10-5*2 e x=(10-5)*2
+<br>
+• A <b>definição</b> indica a seguinte ordem como correta:
+<br>
+• parentesis
+<br>
+• expoentes
+<br>
+• Multiplicações e divisões(da esquerda para a direita)
+<br>
+• Somas e subtrações(também da esquerda para a direita)
+<br>
+Os <b>operadores de comparação</b>, como o próprio nome já diz, serve para <b>comparar</b> dois valores, por exemplo
+<br>
+x = 450
+<br>
+y = 200
+<br>
+print(x == y)</b> >retorna False por ser diferente
+<br>
+Mas também existe o <b>diferente</b> representado por != como no exemplo abaixo
+<br>
+<b>print(x != y)</b> >retorna True por ser diferente
