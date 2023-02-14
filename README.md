@@ -152,3 +152,10 @@ nome = input("Digite seu nome: ")
 <br>
 idade = input("Digite sua idade: ")
 <br>
+<b>OPERADORES ARITMÉTICOS</b>
+<br>
+• Eles executam operações matemáticas, como adição, subtração, etc com os operandos, por exemplo
+<br>
+<b>print(1+1)</b> >adição, resulta em 2
+<b>print(10-2)</b> >subtração, resulta em 8
+<b>print(4*3)</b> >multiplica~ção, resulta em 12
