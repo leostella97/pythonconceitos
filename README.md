@@ -144,3 +144,11 @@ print(nome, sobrenome, sep="#")
 <br>
 • Em resumo, neste código é apresentado o <i>end</i> e <i>sep</i>, são colocados no final, <i>end</i> é o que vai ter quando termina e <i>sep</i> é colcoado quando separa
 <br>
+<b>RECEBER VALORES</b>
+• bem simples, para receber valores usa o método <i>input</i>, como no exemplo abaixo
+<br>
+<b>
+nome = input("Digite seu nome: ")
+<br>
+idade = input("Digite sua idade: ")
+<br>
