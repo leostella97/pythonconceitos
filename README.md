@@ -159,3 +159,8 @@ idade = input("Digite sua idade: ")
 <b>print(1+1)</b> >adição, resulta em 2
 <b>print(10-2)</b> >subtração, resulta em 8
 <b>print(4*3)</b> >multiplica~ção, resulta em 12
+<br>
+• Para <i>retornar divisão em inteiro</i> mesmo resultando em número real, usa <b>barra dupla (//)</b>, por exemplo
+<br>
+<b>print(3//2)</b> >resulta em 1
+<br>
