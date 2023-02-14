@@ -126,16 +126,21 @@ nome = input("Informe seu nome: ")
 <br>
 • <i>Exibindo valores com a função print =></i> A função <b>built-in print</b> é utilizada quando queremos exibir dados na saída padrão (tela). Ela recebe um argumento do tipo <i>var args</i> de objeto e 4 argumentos opcionais(sep, end, le e flush). Todos os objetos são convertidos para string, separados por sep e terminados por end. A string final é exibida para o usuário
 <br> 
-<b>nome = "Leonardo"
+<b>
+nome = "Leonardo"
 <br>
 sobrenome = "Stella"
-<print><br>
+<br>
 print(nome, sobrenome, eld="...\n")
 <br>
 print(nome, sobrenome, sep="#")
+</b>
 <br>
 >Leonardo Stela
 <br>
 >Leonardo Stella... *aqui tem a quebra de linha representada pelo \n no final*
 <br>
 >Leonardo#Stella *o sep representa o separador, então toda separação de string vai ter o #*
+<br>
+• Em resumo, neste código é apresentado o <i>end</i> e <i>sep</i>, são colocados no final, <i>end</i> é o que vai ter quando termina e <i>sep</i> é colcoado quando separa
+<br>
