@@ -205,3 +205,8 @@ Mas também existe o <b>diferente</b> representado por != como no exemplo abaixo
 <br>
 <b>saldo *= 2</b> # multiplica por 2 com a variável saldo
 <br>
+<b>OPERADORES LÓGICOS</b>
+• São operadores utilizados em conjunto com os operadores de comparação para montar uma expressão lógica. Quando um operador de comparação é utilizado, o resultado retornado é booleano <i>true ou false</i>, dessa forma podemos combinar operadores de <i>comparação</i> com <i>lógicos</i>, por exemplo:
+<br>
+<b>
+op_comparacao + op_logico + op_comparacao ... n ...
