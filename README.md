@@ -215,3 +215,12 @@ O operador <b>and</b> representa <i>junção</i>, por exemplo
 <b>saldo >= saque and saque <= limite</b> #só funciona se ambas forem verdadeiras
 <br>
 O operador <o>or</o> representa <i>ou</i>, resulta em true se <i> pelo menos um for verdadeiro</i>
+<b>
+O operador <b>not</b> representa a negação, o inverso da condição, por exemplo
+<br>
+<b>saldo not saque</b> #nesse código fala que o valor de saldo não é o valor de saque
+<br>
+• É recomendado pelas <i>boas práticas</i> no Python utilizar <b>parenteses</b> para ter uma <i>melhor visualização</i>, mesmo que não altere na operação, por exemplo
+<br>
+<b>saldo >= saque and saque <= limite) or (conta_especial and saldo >= saque)
+<br>
