@@ -210,3 +210,8 @@ Mas também existe o <b>diferente</b> representado por != como no exemplo abaixo
 <br>
 <b>
 op_comparacao + op_logico + op_comparacao ... n ...
+<br>
+O operador <b>and</b> representa <i>junção</i>, por exemplo
+<b>saldo >= saque and saque <= limite</b> #só funciona se ambas forem verdadeiras
+<br>
+O operador <o>or</o> representa <i>ou</i>, resulta em true se <i> pelo menos um for verdadeiro</i>
