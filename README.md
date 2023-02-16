@@ -224,3 +224,26 @@ O operador <b>not</b> representa a negação, o inverso da condição, por exemp
 <br>
 <b>saldo >= saque and saque <= limite) or (conta_especial and saldo >= saque)
 <br>
+<b>OPERADORES DE IDENTIDADE</b>
+<br>
+• Eles são utilizados para <i>comparar</i> se os dois objetos testados ocupam a mesma posição na memória, por exemplo
+<br>
+<b>nome_curso = curso
+<br>
+curso is nome_curso</b> #resulta em true por terem sido definidos iguais
+<br>
+<b>curso is not nome_curso</b> #resulta em false, acima foram definidos como iguais
+<b>OPERADORES DE ASSOCIAÇÃO</b>
+• São operadores utilizados para verificar se um objeto está presente em uma sequéncia, por exemplo
+<br>
+<b>
+curso = "Python"
+<br>
+frutas = ["laranja", "uva", "limão"]
+<br>
+saques = [1500, 100]
+<br>
+"Python" in curso </b> #retorna true por estar na variável curso
+<br>
+<b>"maçã" in frutas</b> #retorna false pois maçã não está no array frutas 
+<b>200 in saques</b> #false pos 200 não está em saques, os valores de saques que estão são apenas 1500 e 100
