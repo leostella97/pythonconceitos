@@ -191,3 +191,6 @@ print(x == y)</b> >retorna False por ser diferente
 Mas também existe o <b>diferente</b> representado por != como no exemplo abaixo
 <br>
 <b>print(x != y)</b> >retorna True por ser diferente
+<br>
+<b>OPERADORES DE ATRIBUIÇÃO</b>
+• Eles são utilizados para definir o <i>valor</i> inicial ou sobrescrever o valor de uma variável
