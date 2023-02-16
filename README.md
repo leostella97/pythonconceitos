@@ -194,3 +194,14 @@ Mas também existe o <b>diferente</b> representado por != como no exemplo abaixo
 <br>
 <b>OPERADORES DE ATRIBUIÇÃO</b>
 • Eles são utilizados para definir o <i>valor</i> inicial ou sobrescrever o valor de uma variável
+<br>
+<b>saldo = 500</b> #atribuição simples
+<br>
+<b>print(saldo)</b> #exibir o valor da variável saldo
+<br>
+<b>saldo += 200</b> #incrementa 200 na variável saldo
+<br>
+<b>saldo -= 100</b> #decrementa 100 na variável saldo
+<br>
+<b>saldo *= 2</b> # multiplica por 2 com a variável saldo
+<br>
