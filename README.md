@@ -246,4 +246,4 @@ saques = [1500, 100]
 "Python" in curso </b> #retorna true por estar na variável curso
 <br>
 <b>"maçã" in frutas</b> #retorna false pois maçã não está no array frutas 
-<b>200 in saques</b> #false pos 200 não está em saques, os valores de saques que estão são apenas 1500 e  
+<b>200 in saques</b> #false pos 200 não está em saques, os valores de saques que estão são apenas 1500 e 
