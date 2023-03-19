@@ -2,7 +2,7 @@
 Conceitos da linguagem Python 
 <h2>História do Python</h2>
 • <b>Python</b> nasceu em <b>1989</b> como um hobby do programador <b>Guido Van Rossum</b>,  matemático e programador de computadores holandês. A ideia inicial era dar continuidade a <i>linguagem ABC</i> que era desenvolvida no <b>Centro de Pesquisa Holandês(CWI).</b>
-<br>
+<br> 
 Python foi <b>influenciado</b>por ABC que era uma linguagem pensada para iniciantes devido a sua <b>facilidade</b> de aprendizagem e utilização.
 <br>
 • Os <b>objetivos</b> de Van Rossum para a linguagem Python era
