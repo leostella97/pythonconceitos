@@ -95,6 +95,7 @@ Python não usa <i>constantes</i>, mas usa convenção para indicar que a <b>var
 • nome de constantes tem que ficar em maiúsculo por exemplo <b>CPF: 123-456-789-00
 <br>
 para <b>concatenar</b> variáveis e, somente variáveis usando o <b>print</b> pode usar a <b>vírgula</b>, por exemplo print(nome, idade) #é mostrado Leonardo Stella 26</b>
+<br>
 <b>CONVERTENDO TIPOS</b>
 <br>
 Em alguns momentos é necessário converter o tipo de uma variável para manipular de forma diferente, por exemplo:
@@ -105,13 +106,13 @@ Variáveis do tipo <i>string</i>, que armazena números e precisamos fazer algum
 <br>
 • <b>print(preco)</b> #resulta 10 na tela
 <br>
-• <b>preco = float(preco) #convertendo para tipo float
+• <b>preco = float(preco)</b> #convertendo para tipo float
 <br>
-• <b>print(preco) #agora, mostrando o valor da variável 'preco' no tipo float
+• <b>print(preco)</b> #agora, mostrando o valor da variável 'preco' no tipo float
 <br>
 • <b>preco = 10/2</b> #operação com a variável convertida
 <br>
-• <b>print(preco) #mostrar o resultado da operação na variável
+• <b>print(preco)</b> #mostrar o resultado da operação na variável
 <br>
 para converter <i>número</i> para <i>string</i> é um pouco diferente, se usa o comando <b>print(str(preco)), em resumo, tanto a variável quando o str precisa de parenteses
 <br>
