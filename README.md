@@ -259,3 +259,12 @@ A <b>estética</b>, <i>identar o código</i> é uma forma de manter o código fo
 		} // fim do bloco if
 	} fim do bloco método
 </code>
+• <b>Utilizando espaços</b> = Existe uma <i>convenção</i> em Python, que define as <b>Boas Práticas</b> para escrita de código na linguagem. Nesse documento é indicado utilizar 4 espaços em branco por <i>nível de identação</i>, segue abaixo um código em Python:
+<br>
+<code>
+	def sacar (self, valor: float) -> None: # Início do bloco método
+		if self.saldo >= valor: # Início do bloco if
+			self.valor = valor
+		# Fim do bloco if
+	# Fim do bloco método
+</code>
