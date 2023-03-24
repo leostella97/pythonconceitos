@@ -270,3 +270,14 @@ A <b>estética</b>, <i>identar o código</i> é uma forma de manter o código fo
 </code>
 <br>
 <b>IMPORTANTE:</b> CASO NÃO <b>IDENTAR NO PYTHON, </b> O BLOCO <b> NÃO VAI FUNCIONAR</b>
+<b>def</b> é a <i>palavra reservada</i> do Python para definir uma <b>função</b>, exemplo:
+<br>
+<code>
+	def <i>nome_da_funcao(argumentos)</i>:
+		# Código
+</code>
+<br>
+A palavra <b>"def"</b> é seguida pelo nome da função, seguido, por parenteses que contém zero ou mais argumentos (o primeiro sempre é o self) separados por <b>vírgula</b>.
+<br>
+A definição da função é terminada com <b>dois pontos</b> (o que indica o inicio dela após os quatro espaços) e o corpo da função é escrito em uma ou mais linhas, identadas para a direita.
+<br>
