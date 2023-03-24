@@ -36,7 +36,7 @@ para exibir um texto no console, o comando utilizado é <b>print("texto")</b>, n
 Para concatenar strings em python, pode utilizar o sinal de adição, como por exemplo <i>"mensagem um" + "mensagem 2"</i>
 <br>
 Os tipos servem para <b>definir</b> as <b>características</b> e <b>comportamentos</b> de um valor(objeto) para um interpretador
-<br>
+<br><br>
 <b>TIPOS DE VALORES</b>
 <br>
 texto | str
@@ -85,7 +85,7 @@ Em Python, também é possível declarar <i>várias variáveis</i> em <i>apenas 
 <b>NÃO</b> podemos criar uma variável sem atribuir um valor
 <br>
 Python não usa <i>constantes</i>, mas usa convenção para indicar que a <b>variável não pode ser alterada</b>
-<br>
+<br><br>
 <b>BOAS PRÁTICAS</b>
 <br>
 • o padrão de nomes deve ser em <i>snakecase</i>, as palavras são separadas com underline( _ )
