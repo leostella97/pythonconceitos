@@ -272,7 +272,7 @@ A <b>estética</b>, <i>identar o código</i> é uma forma de manter o código fo
 	# Fim do bloco método
 </code>
 <br><br>
-<b>IMPORTANTE:</b> CASO NÃO <b>IDENTAR NO PYTHON, </b> O BLOCO <b> NÃO VAI FUNCIONAR</b>
+<b>* IMPORTANTE:</b> CASO NÃO <b>IDENTAR NO PYTHON, </b> O BLOCO <b> NÃO VAI FUNCIONAR</b>
 <br><br><br>
 <b>def</b> é a <i>palavra reservada</i> do Python para definir uma <b>função</b>, exemplo:
 <br>
