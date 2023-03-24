@@ -222,7 +222,7 @@ O operador <b>not</b> representa a <b>negação</b>, o <b>inverso da condição<
 <br>
 • É recomendado pelas <i>boas práticas</i> no Python utilizar <b>parenteses</b> para ter uma <i>melhor visualização</i>, mesmo que não altere na operação, por exemplo
 <br>
-<b>saldo >= saque and saque <= limite) or (conta_especial and saldo >= saque)
+<b>saldo >= saque and saque <= limite) or (conta_especial and saldo >= saque)</b>
 <br>
 <b>OPERADORES DE IDENTIDADE</b>
 <br>
