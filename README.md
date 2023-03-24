@@ -223,7 +223,7 @@ O operador <b>not</b> representa a <b>negação</b>, o <b>inverso da condição<
 • É recomendado pelas <i>boas práticas</i> no Python utilizar <b>parenteses</b> para ter uma <i>melhor visualização</i>, mesmo que não altere na operação, por exemplo
 <br>
 <b>saldo >= saque and saque <= limite) or (conta_especial and saldo >= saque)</b>
-<br>
+<br><br>
 <b>OPERADORES DE IDENTIDADE</b>
 <br>
 • Eles são utilizados para <i>comparar</i> se os dois objetos testados ocupam a mesma posição na memória, por exemplo
@@ -268,8 +268,9 @@ A <b>estética</b>, <i>identar o código</i> é uma forma de manter o código fo
 		# Fim do bloco if
 	# Fim do bloco método
 </code>
-<br>
+<br><br>
 <b>IMPORTANTE:</b> CASO NÃO <b>IDENTAR NO PYTHON, </b> O BLOCO <b> NÃO VAI FUNCIONAR</b>
+<br><br>
 <b>def</b> é a <i>palavra reservada</i> do Python para definir uma <b>função</b>, exemplo:
 <br>
 <code>
