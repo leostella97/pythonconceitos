@@ -209,15 +209,14 @@ Mas também existe o <b>diferente</b> representado por != como no exemplo abaixo
 <b>OPERADORES LÓGICOS</b>
 • São operadores utilizados em conjunto com os operadores de comparação para montar uma expressão lógica. Quando um operador de comparação é utilizado, o resultado retornado é booleano <i>true ou false</i>, dessa forma podemos combinar operadores de <i>comparação</i> com <i>lógicos</i>, por exemplo:
 <br>
-<b>
-op_comparacao + op_logico + op_comparacao ... n ...
+o<b>p_comparacao + op_logico + op_comparacao ... n ...</b>
 <br>
 O operador <b>and</b> representa <i>junção</i>, por exemplo
 <b>saldo >= saque and saque <= limite</b> #só funciona se ambas forem verdadeiras
 <br>
-O operador <o>or</o> representa <i>ou</i>, resulta em true se <i> pelo menos um for verdadeiro</i>
+O operador <b>or</b> representa <b>ou</b>, resulta em true se <i> pelo menos um for verdadeiro</i>
 <b>
-O operador <b>not</b> representa a negação, o inverso da condição, por exemplo
+O operador <b>not</b> representa a <b>negação</b>, o <b>inverso da condição</b></b>, por exemplo
 <br>
 <b>saldo not saque</b> #nesse código fala que o valor de saldo não é o valor de saque
 <br>
