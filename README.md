@@ -95,7 +95,7 @@ Python não usa <i>constantes</i>, mas usa convenção para indicar que a <b>var
 • nome de constantes tem que ficar em maiúsculo por exemplo <b>CPF: 123-456-789-00
 <br>
 para <b>concatenar</b> variáveis e, somente variáveis usando o <b>print</b> pode usar a <b>vírgula</b>, por exemplo print(nome, idade) #é mostrado Leonardo Stella 26</b>
-<br>
+<br><br>
 <b>CONVERTENDO TIPOS</b>
 <br>
 Em alguns momentos é necessário converter o tipo de uma variável para manipular de forma diferente, por exemplo:
@@ -119,8 +119,9 @@ Para converter <i>número</i> para <i>string</i> é um pouco diferente, se usa o
 Na <b>concatenação</b>, o uso do <b>f</b> concatena textos com variáveis, ela mais ou menos "diz" que vai ser inserido variáveis dentro dessa string criada, por exemplo:
 <br>
 print(f"idade {idade} preco {preco})
-<br>
+<br><br>
 <b>ENTRADA E SAÍDA</b>
+<br>
 • <i>Lendo valores com a função input =></i> A função <b>built-in input</b> é utilizada quando queremos valores da entrada padrão (teclado). Ela recebe um argumento do tipo <i>string</i>, que é exibido para o usuário na saída de tela padrão (tela/monitor). A função lê a entrada, converte para string e retorna o valor, por exemplo:
 <br>
 nome = input("Informe seu nome: ")
@@ -144,15 +145,16 @@ print(nome, sobrenome, sep="#")
 >Leonardo#Stella *o sep representa o separador, então toda separação de string vai ter o #*
 <br>
 • Em resumo, neste código é apresentado o <i>end</i> e <i>sep</i>, são colocados no final, <i>end</i> é o que vai ter quando termina e <i>sep</i> é colcoado quando separa
-<br>
+<br><br>
 <b>RECEBER VALORES</b>
+<br>
 • bem simples, para receber valores usa o método <i>input</i>, como no exemplo abaixo
 <br>
 <b>
 nome = input("Digite seu nome: ")
 <br>
 idade = input("Digite sua idade: ")
-<br>
+<br><br>
 <b>OPERADORES ARITMÉTICOS</b>
 <br>
 • Eles executam operações matemáticas, como adição, subtração, etc com os operandos, por exemplo
@@ -192,8 +194,9 @@ print(x == y)</b> >retorna False por ser diferente
 Mas também existe o <b>diferente</b> representado por != como no exemplo abaixo
 <br>
 <b>print(x != y)</b> >retorna True por ser diferente
-<br>
+<br><br>
 <b>OPERADORES DE ATRIBUIÇÃO</b>
+<br>
 • Eles são utilizados para definir o <i>valor</i> inicial ou sobrescrever o valor de uma variável
 <br>
 <b>saldo = 500</b> #atribuição simples
@@ -270,7 +273,7 @@ A <b>estética</b>, <i>identar o código</i> é uma forma de manter o código fo
 </code>
 <br><br>
 <b>IMPORTANTE:</b> CASO NÃO <b>IDENTAR NO PYTHON, </b> O BLOCO <b> NÃO VAI FUNCIONAR</b>
-<br><br>
+<br><br><br>
 <b>def</b> é a <i>palavra reservada</i> do Python para definir uma <b>função</b>, exemplo:
 <br>
 <code>
