@@ -249,3 +249,13 @@ saques = [1500, 100]
 <b>200 in saques</b> # Retorna false pos 200 não está em saques, os valores de saques que estão são apenas 1500
 <br>
 A <b>estética</b>, <i>identar o código</i> é uma forma de manter o código fonte mais <b>legível</b> e <b>manutenível</b>. Mas em Python ela exerce um <i>segundo papel</i>, através da identação o <i>intepretador consegue determinar</i> onde um bloco de comando <i>inicia</i> e onde ele <i>termina</i>.
+<br>
+• <b>Bloco de comando</b> = As linguagens de programação costumam <i>utilizar caracteres e palavras</i> reservadas para terminar o <i>início</i> e <i>fim</i> do bloco. Em <b>Java</b> e <b>C</b> por exemplo, utilizamos chaves ({}), segue abaixo um exemplo em Java:
+<br>
+<code>
+		void sacar(double valor){
+		if(this.saldo>=valor){
+		this.saldo = valor;
+		} // fim do bloco if
+	} fim do bloco método
+</code>
