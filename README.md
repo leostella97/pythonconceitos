@@ -247,3 +247,5 @@ saques = [1500, 100]
 <br>
 <b>"maçã" in frutas</b> # Retorna false pois maçã não está no array frutas 
 <b>200 in saques</b> # Retorna false pos 200 não está em saques, os valores de saques que estão são apenas 1500
+<br>
+A <b>estética</b>, <i>identar o código</i> é uma forma de manter o código fonte mais <b>legível</b> e <b>manutenível</b>. Mas em Python ela exerce um <i>segundo papel</i>, através da identação o <i>intepretador consegue determinar</i> onde um bloco de comando <i>inicia</i> e onde ele <i>termina</i>.
