@@ -286,3 +286,6 @@ A palavra <b>"def"</b> é seguida pelo nome da função, seguido, por parenteses
 A definição da função é terminada com <b>dois pontos</b> (o que indica o inicio dela após os quatro espaços) e o corpo da função é escrito em uma ou mais linhas, identadas para a direita.
 <br><br>
 A <b>estrutura condicional</b> premite o <i>desvio de fluxo de controle</i> quando determinadas <i>expressões lógicas</i> são atendidas.
+<br>
+O comando <b>"if"</b> cria uma <i>estrutura condicional simples</i>, composta por <b>um único desvio</b>, podemos utilizar a palavra reservada if. O comando irá testar a <i>expressão lógica</i> e, em caso de retorno <b>verdadeiro</b> as ações presentes no <i>bloco de código</i> do if serão <i>executadas</i>, segue um exemplo abaixo:
+<br>
