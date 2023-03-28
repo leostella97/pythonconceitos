@@ -303,3 +303,5 @@ O comando <b>"if"</b> cria uma <i>estrutura condicional simples</i>, composta po
 <b>• if/elif/else: </b>em alguns cenários queremos <i>mais de dois desvios</i>, para isso podemos utilizar a palavra reservada <b>elif</b>. O elif é composto por uma nova expressão lógica que será testada caso o retorne <b>verdadeiro</b>, por exemplo <i> if falso e elif verdadeiro</i>.
 <br>
 <b>NÃO EXISTE LIMITE PARA USO DE ELIF</b>, porém evite criar grandes <i>estruturas condicionais</i>, pois elas aumentam a <b>complexidade</b> do código.
+<br>
+* No Python não se usa <b>else if</b> como em outras linguagens, o correto é <b>elif</b>
