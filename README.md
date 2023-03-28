@@ -208,8 +208,9 @@ Mas também existe o <b>diferente</b> representado por != como no exemplo abaixo
 <b>saldo -= 100</b> #decrementa 100 na variável saldo
 <br>
 <b>saldo *= 2</b> # multiplica por 2 com a variável saldo
-<br>
+<br><br>
 <b>OPERADORES LÓGICOS</b>
+<br>
 • São operadores utilizados em conjunto com os operadores de comparação para montar uma expressão lógica. Quando um operador de comparação é utilizado, o resultado retornado é booleano <i>true ou false</i>, dessa forma podemos combinar operadores de <i>comparação</i> com <i>lógicos</i>, por exemplo:
 <br>
 o<b>p_comparacao + op_logico + op_comparacao ... n ...</b>
@@ -254,7 +255,6 @@ saques = [1500, 100]
 A <b>estética</b>, <i>identar o código</i> é uma forma de manter o código fonte mais <b>legível</b> e <b>manutenível</b>. Mas em Python ela exerce um <i>segundo papel</i>, através da identação o <i>intepretador consegue determinar</i> onde um bloco de comando <i>inicia</i> e onde ele <i>termina</i>.
 <br><br>
 • <b>Bloco de comando</b> = As linguagens de programação costumam <i>utilizar caracteres e palavras</i> reservadas para terminar o <i>início</i> e <i>fim</i> do bloco. Em <b>Java</b> e <b>C</b> por exemplo, utilizamos chaves ({}), segue abaixo um exemplo em Java:
-<br><br>
 <code>
 		void sacar(double valor){
 		if(this.saldo>=valor){
@@ -263,7 +263,6 @@ A <b>estética</b>, <i>identar o código</i> é uma forma de manter o código fo
 	} fim do bloco método
 </code>
 • <b>Utilizando espaços</b> = Existe uma <i>convenção</i> em Python, que define as <b>Boas Práticas</b> para escrita de código na linguagem. Nesse documento é indicado utilizar 4 espaços em branco por <i>nível de identação</i>, segue abaixo um código em Python:
-<br><br>
 <code>
 	def sacar (self, valor: float) -> None: # Início do bloco método
 		if self.saldo >= valor: # Início do bloco if
@@ -271,7 +270,6 @@ A <b>estética</b>, <i>identar o código</i> é uma forma de manter o código fo
 		# Fim do bloco if
 	# Fim do bloco método
 </code>
-<br><br>
 <b>* IMPORTANTE:</b> CASO NÃO <b>IDENTAR NO PYTHON, </b> O BLOCO <b> NÃO VAI FUNCIONAR</b>
 <br><br><br>
 <b>def</b> é a <i>palavra reservada</i> do Python para definir uma <b>função</b>, exemplo:
