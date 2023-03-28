@@ -255,6 +255,7 @@ saques = [1500, 100]
 A <b>estética</b>, <i>identar o código</i> é uma forma de manter o código fonte mais <b>legível</b> e <b>manutenível</b>. Mas em Python ela exerce um <i>segundo papel</i>, através da identação o <i>intepretador consegue determinar</i> onde um bloco de comando <i>inicia</i> e onde ele <i>termina</i>.
 <br><br>
 • <b>Bloco de comando</b> = As linguagens de programação costumam <i>utilizar caracteres e palavras</i> reservadas para terminar o <i>início</i> e <i>fim</i> do bloco. Em <b>Java</b> e <b>C</b> por exemplo, utilizamos chaves ({}), segue abaixo um exemplo em Java:
+<br><br>
 <code>
 		void sacar(double valor){
 		if(this.saldo>=valor){
@@ -263,6 +264,7 @@ A <b>estética</b>, <i>identar o código</i> é uma forma de manter o código fo
 	} fim do bloco método
 </code>
 • <b>Utilizando espaços</b> = Existe uma <i>convenção</i> em Python, que define as <b>Boas Práticas</b> para escrita de código na linguagem. Nesse documento é indicado utilizar 4 espaços em branco por <i>nível de identação</i>, segue abaixo um código em Python:
+<br><br>
 <code>
 	def sacar (self, valor: float) -> None: # Início do bloco método
 		if self.saldo >= valor: # Início do bloco if
@@ -270,6 +272,7 @@ A <b>estética</b>, <i>identar o código</i> é uma forma de manter o código fo
 		# Fim do bloco if
 	# Fim do bloco método
 </code>
+<br><br>
 <b>* IMPORTANTE:</b> CASO NÃO <b>IDENTAR NO PYTHON, </b> O BLOCO <b> NÃO VAI FUNCIONAR</b>
 <br><br><br>
 <b>def</b> é a <i>palavra reservada</i> do Python para definir uma <b>função</b>, exemplo:
@@ -307,6 +310,7 @@ O comando <b>"if"</b> cria uma <i>estrutura condicional simples</i>, composta po
 <b>if aninhado:</b> podemos criar <i>estruturas condicionais aninhadas</i>, para isso basta adicionar estruturas <b>if/elif/else</b> dentro do bloco de código.
 <br><br>
 <b>if ternário:</b> permite escrever uma condição em uma única linha. Ele é composto por <i>três pares</i>, a <b>primeira parte</b> é o retorno caso a expressão retorne <b>verdadeiro</b>, a <b>segunda parte</b> é a <b>expressão lógica</b> e a <b>terceira parte</b> é o <b>retorno</b> caso a expressão <b>não seja atendida</b>, por exemplo:
+<br>
 <code>
 	status = "Sucesso" if saldo >= saque else "Falha"
 	print (f"{status} ao realizar o saque!"")
