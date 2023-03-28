@@ -284,4 +284,5 @@ A <b>estética</b>, <i>identar o código</i> é uma forma de manter o código fo
 A palavra <b>"def"</b> é seguida pelo nome da função, seguido, por parenteses que contém zero ou mais argumentos (o primeiro sempre é o self) separados por <b>vírgula</b>.
 <br>
 A definição da função é terminada com <b>dois pontos</b> (o que indica o inicio dela após os quatro espaços) e o corpo da função é escrito em uma ou mais linhas, identadas para a direita.
-<br>
+<br><br>
+A <b>estrutura condicional</b> premite o <i>desvio de fluxo de controle</i> quando determinadas <i>expressões lógicas</i> são atendidas.
