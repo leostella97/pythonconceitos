@@ -314,3 +314,4 @@ O comando <b>"if"</b> cria uma <i>estrutura condicional simples</i>, composta po
 <code>
 	status = "Sucesso" if saldo >= saque else "Falha"
 	print (f"{status} ao realizar o saque!"")
+</code>
