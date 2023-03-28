@@ -305,3 +305,4 @@ O comando <b>"if"</b> cria uma <i>estrutura condicional simples</i>, composta po
 <b>NÃO EXISTE LIMITE PARA USO DE ELIF</b>, porém evite criar grandes <i>estruturas condicionais</i>, pois elas aumentam a <b>complexidade</b> do código.
 <br>
 * No Python não se usa <b>else if</b> como em outras linguagens, o correto é <b>elif</b>
+<b>if aninhado:</b> podemos criar <i>estruturas condicionais aninhadas</i>, para isso basta adicionar estruturas <b>if/elif/else</b> dentro do bloco de código.
