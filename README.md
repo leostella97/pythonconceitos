@@ -300,4 +300,6 @@ O comando <b>"if"</b> cria uma <i>estrutura condicional simples</i>, composta po
 <br>
 <b>• if/else: </b> para criar uma <i>estrutura condicional</i> com dois desvios, podemos utilizar as palavras reservadas <b>if</b> e <b>else</b>. Como sabemos que a expressão lógica testada no if retorna <b>verdadeiro</b>, então o bloco do if será <b>executado</b>. Caso contrário, será executado o bloco <b>else</b>, representado pelo <b>false</b>.
 <br>
-<b>• if/elif/else: </b>em alguns cenários queremos <i>mais de dois desvios</i>
+<b>• if/elif/else: </b>em alguns cenários queremos <i>mais de dois desvios</i>, para isso podemos utilizar a palavra reservada <b>elif</b>. O elif é composto por uma nova expressão lógica que será testada caso o retorne <b>verdadeiro</b>, por exemplo <i> if falso e elif verdadeiro</i>.
+<br>
+<b>NÃO EXISTE LIMITE PARA USO DE ELIF</b>, porém evite criar grandes <i>estruturas condicionais</i>, pois elas aumentam a <b>complexidade</b> do código.
