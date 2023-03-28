@@ -250,11 +250,11 @@ saques = [1500, 100]
 <br>
 <b>"maçã" in frutas</b> # Retorna false pois maçã não está no array frutas 
 <b>200 in saques</b> # Retorna false pos 200 não está em saques, os valores de saques que estão são apenas 1500
-<br>
+<br><br>
 A <b>estética</b>, <i>identar o código</i> é uma forma de manter o código fonte mais <b>legível</b> e <b>manutenível</b>. Mas em Python ela exerce um <i>segundo papel</i>, através da identação o <i>intepretador consegue determinar</i> onde um bloco de comando <i>inicia</i> e onde ele <i>termina</i>.
-<br>
+<br><br>
 • <b>Bloco de comando</b> = As linguagens de programação costumam <i>utilizar caracteres e palavras</i> reservadas para terminar o <i>início</i> e <i>fim</i> do bloco. Em <b>Java</b> e <b>C</b> por exemplo, utilizamos chaves ({}), segue abaixo um exemplo em Java:
-<br>
+<br><br>
 <code>
 		void sacar(double valor){
 		if(this.saldo>=valor){
@@ -263,7 +263,7 @@ A <b>estética</b>, <i>identar o código</i> é uma forma de manter o código fo
 	} fim do bloco método
 </code>
 • <b>Utilizando espaços</b> = Existe uma <i>convenção</i> em Python, que define as <b>Boas Práticas</b> para escrita de código na linguagem. Nesse documento é indicado utilizar 4 espaços em branco por <i>nível de identação</i>, segue abaixo um código em Python:
-<br>
+<br><br>
 <code>
 	def sacar (self, valor: float) -> None: # Início do bloco método
 		if self.saldo >= valor: # Início do bloco if
@@ -280,15 +280,15 @@ A <b>estética</b>, <i>identar o código</i> é uma forma de manter o código fo
 	def <i>nome_da_funcao(argumentos)</i>:
 		# Código
 </code>
-<br>
+<br><br>
 A palavra <b>"def"</b> é seguida pelo nome da função, seguido, por parenteses que contém zero ou mais argumentos (o primeiro sempre é o self) separados por <b>vírgula</b>.
-<br>
+<br><br>
 A definição da função é terminada com <b>dois pontos</b> (o que indica o inicio dela após os quatro espaços) e o corpo da função é escrito em uma ou mais linhas, identadas para a direita.
 <br><br>
 A <b>estrutura condicional</b> premite o <i>desvio de fluxo de controle</i> quando determinadas <i>expressões lógicas</i> são atendidas.
-<br>
+<br><br>
 O comando <b>"if"</b> cria uma <i>estrutura condicional simples</i>, composta por <b>um único desvio</b>, podemos utilizar a palavra reservada if. O comando irá testar a <i>expressão lógica</i> e, em caso de retorno <b>verdadeiro</b> as ações presentes no <i>bloco de código</i> do if serão <i>executadas</i>, segue um exemplo abaixo:
-<br>
+<br><br>
 <code>
 	saldo = 2000.00
 	saque = float(input("Informe o valor desejado do saque: "))
@@ -297,12 +297,18 @@ O comando <b>"if"</b> cria uma <i>estrutura condicional simples</i>, composta po
 	if saldo < saque:
 		print ("Saldo insuficiente.")
 </code>
-<br>
+<br><br>
 <b>• if/else: </b> para criar uma <i>estrutura condicional</i> com dois desvios, podemos utilizar as palavras reservadas <b>if</b> e <b>else</b>. Como sabemos que a expressão lógica testada no if retorna <b>verdadeiro</b>, então o bloco do if será <b>executado</b>. Caso contrário, será executado o bloco <b>else</b>, representado pelo <b>false</b>.
-<br>
+<br><br>
 <b>• if/elif/else: </b>em alguns cenários queremos <i>mais de dois desvios</i>, para isso podemos utilizar a palavra reservada <b>elif</b>. O elif é composto por uma nova expressão lógica que será testada caso o retorne <b>verdadeiro</b>, por exemplo <i> if falso e elif verdadeiro</i>.
-<br>
+<br><br>
 <b>NÃO EXISTE LIMITE PARA USO DE ELIF</b>, porém evite criar grandes <i>estruturas condicionais</i>, pois elas aumentam a <b>complexidade</b> do código.
-<br>
+<br><br>
 * No Python não se usa <b>else if</b> como em outras linguagens, o correto é <b>elif</b>
+<br><br>
 <b>if aninhado:</b> podemos criar <i>estruturas condicionais aninhadas</i>, para isso basta adicionar estruturas <b>if/elif/else</b> dentro do bloco de código.
+<br><br>
+<b>if ternário:</b> permite escrever uma condição em uma única linha. Ele é composto por <i>três pares</i>, a <b>primeira parte</b> é o retorno caso a expressão retorne <b>verdadeiro</b>, a <b>segunda parte</b> é a <b>expressão lógica</b> e a <b>terceira parte</b> é o <b>retorno</b> caso a expressão <b>não seja atendida</b>, por exemplo:
+<code>
+	status = "Sucesso" if saldo >= saque else "Falha"
+	print (f"{status} ao realizar o saque!"")
