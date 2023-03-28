@@ -289,3 +289,11 @@ A <b>estrutura condicional</b> premite o <i>desvio de fluxo de controle</i> quan
 <br>
 O comando <b>"if"</b> cria uma <i>estrutura condicional simples</i>, composta por <b>um único desvio</b>, podemos utilizar a palavra reservada if. O comando irá testar a <i>expressão lógica</i> e, em caso de retorno <b>verdadeiro</b> as ações presentes no <i>bloco de código</i> do if serão <i>executadas</i>, segue um exemplo abaixo:
 <br>
+<code>
+	saldo = 2000.00
+	saque = float(input("Informe o valor desejado do saque: "))
+	if saldo >= saque:
+		print ("Realizando saque...")
+	if saldo < saque:
+		print ("Saldo insuficiente.")
+</code>
